@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Works = ({img, text,num}) => {
+const Works = ({ img, text, num }) => {
     return (
         <>
             <div className='flex items-center flex-col w-[33%]'>
