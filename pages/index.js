@@ -43,9 +43,10 @@ export default function Home() {
         <div className='flex justify-between mx-28'>
           <Works text={"Answer few questions"} img={"/file2.png"} num={1} />
           <div className='w-60 mt-5 ml-[18%] absolute border-b-2 border-dashed border-white h-1'></div>
-          <Works text={"Register using phone and OTP"} img={"/smartphone.png"} num={2} />
+          <Works text={"Register using phone & OTP"} img={"/smartphone.png"} num={2} />
           <div className='w-60 mt-5 ml-[45%] absolute border-b-2 border-dashed border-white h-1'></div>
-          <Works text={"Get report & your roadmap"} img={"/report2.png"} num={3} />
+          <Works text={"Get report and your personalized roadmap"} img={"/report2.png"} num={3} />
+          
         </div>
 
         <Button />
